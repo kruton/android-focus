@@ -1,0 +1,16 @@
+sudo: false
+
+addons:
+  apt:
+    packages:
+      - bash-completion
+
+install:
+  - gem install bashcov
+  - gem install coveralls
+
+script: bashcov -- ./bats/bin/bats --tap test
+
+notifications:
+  email:
+    on_success: never
