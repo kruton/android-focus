@@ -92,7 +92,7 @@ _focus() {
             COMPREPLY=( "${devices[@]}" )
             if (( ${#devices[@]} == 1 )); then
                 _focus_reset
-            else \
+            else
                 _focus__comment_last=0
                 _focus__comment_pos=$COMP_POINT
             fi
