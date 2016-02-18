@@ -35,7 +35,7 @@ else \
     # Wait, why is there a prefix here?
     source ${prefix}/etc/bash_completion
 fi
-source ${REPO_DIR}/home/.bashrc.d/20-android-focus.bash
+source ${REPO_DIR}/android-focus.bash
 
 if (( ($# % 3) != 0 )); then
   echo "Expected multiples of 3 arguments but $# found."
