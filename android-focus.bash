@@ -5,7 +5,6 @@
 # into one's .bashrc
 #
 # Author: Kenny Root <kenny@the-b.org>
-# Last change: Sep 9, 2014
 #
 
 focus() {
